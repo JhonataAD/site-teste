@@ -31,7 +31,7 @@ export function App() {
 
   const fetchDados = async () => {
     try {
-      const informacao = await api.get(`/informacoes/1`);
+      const informacao = await api.get(`/informacoes`);
       setInformacoes({
         foto: informacao.data.foto,
         nome: informacao.data.nome,
