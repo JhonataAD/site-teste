@@ -14,7 +14,7 @@ export function Contact() {
 
       const text = `Nome: ${name}\nE-mail: ${email}\nTelefone: ${phone} \Mensagem: ${message}`;
 
-      const whatsNumber = 991731756;
+      const whatsNumber = 5581991731756;
 
       const linkWhatsApp = `https://wa.me/${whatsNumber}?text=${encodeURIComponent(text)}`;
 
